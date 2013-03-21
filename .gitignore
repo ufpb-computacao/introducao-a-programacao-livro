@@ -1,0 +1,9 @@
+/livro/AAPDIR
+/livro/*.png
+/livro/*.zip
+/livro/*.chunked
+/livro/*.pdf
+/livro/slides.html
+*.pdf
+*.zip
+

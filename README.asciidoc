@@ -1,0 +1,8 @@
+== Livro de disciplina
+
+Este repositório contém um livro de uma disciplina.
+
+Para conhecer o seu processo de produção consulte 
+https://github.com/edusantana/producao-computacao-ead-ufpb.
+
+

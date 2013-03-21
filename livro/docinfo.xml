@@ -1,0 +1,75 @@
+
+<!--
+  rudder-doc-docinfo.xml
+  DocBook document information file for rudder-doc.txt.
+-->
+  <edition>v1.0</edition>
+
+  <revhistory>
+    <revision>
+      <revnumber>v1.0</revnumber>
+      <date>Março 2013</date>
+      <authorinitials>Autor 1, Autor 2</authorinitials>
+      <revremark>
+        Primeira versão do livro
+      </revremark>
+    </revision>
+  </revhistory>
+
+
+  <authorgroup>
+    <author>
+      <firstname>Nome</firstname>
+      <surname>Sobrenome</surname>
+      <affiliation>
+        <jobtitle>Professor</jobtitle>
+        <orgname>Universidade Federal da Paraíba</orgname>
+      </affiliation>
+      <authorblurb>
+        <para>
+          Principal contribuidor do livro.
+        </para>
+      </authorblurb>
+    </author>
+
+    <editor>
+      <firstname>Eduardo</firstname>
+      <surname>Medeiros</surname>
+      <othername>Santana</othername>
+    </editor>
+
+  </authorgroup>
+  
+  <copyright>
+    <year>2013</year>
+    <holder>UAB</holder>
+  </copyright>
+  
+  <legalnotice>
+    <simpara>
+      Você tem a liberdade de:
+    </simpara>
+    <simpara>
+      Compartilhar — copiar, distribuir e transmitir a obra.
+    </simpara>
+    <simpara>
+      Remixar — criar obras derivadas. 
+    </simpara>
+    <simpara>
+      Sob as seguintes condições:
+    </simpara>
+    <simpara>
+    Atribuição — Você deve creditar a obra da forma especificada pelo autor ou licenciante (mas não de maneira que sugira que estes concedem qualquer aval a você ou ao seu uso da obra).
+    </simpara>
+    <simpara>
+      Uso não comercial — Você não pode usar esta obra para fins comerciais.
+    </simpara>
+    <simpara>
+      Compartilhamento pela mesma licença — Se você alterar, transformar ou criar em cima desta obra, você poderá distribuir a obra resultante apenas sob a mesma licença, ou sob uma licença similar à presente. 
+    </simpara>
+    <simpara>
+      Para maiores informações consulte: http://creativecommons.org/licenses/by-nc-sa/3.0/br/ .
+    </simpara>
+  </legalnotice>
+
+  
