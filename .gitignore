@@ -3,7 +3,10 @@
 /livro/*.zip
 /livro/*.chunked
 /livro/*.pdf
+/livro/*.txt
 /livro/slides.html
+/livro/livro.xml
+/livro/livro.tex
 *.pdf
 *.zip
 
