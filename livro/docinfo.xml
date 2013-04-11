@@ -30,6 +30,19 @@
           Principal contribuidor do livro.
         </para>
       </authorblurb>
+    <author>
+      <firstname>Jorge</firstname>
+      <surname>Dias</surname>
+      <affiliation>
+        <jobtitle>Professor</jobtitle>
+        <orgname>Universidade Federal da Paraíba</orgname>
+      </affiliation>
+      <authorblurb>
+        <para>
+          Principal contribuidor do livro.
+        </para>
+      </authorblurb>
+
     </author>
 
     <editor>
