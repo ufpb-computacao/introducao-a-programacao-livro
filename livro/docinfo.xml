@@ -18,6 +18,7 @@
 
 
   <authorgroup>
+
     <author>
       <firstname>Bruno</firstname>
       <surname>Jefferson</surname>
@@ -30,6 +31,8 @@
           Principal contribuidor do livro.
         </para>
       </authorblurb>
+    </author>
+
     <author>
       <firstname>Jorge</firstname>
       <surname>Dias</surname>
@@ -42,7 +45,6 @@
           Principal contribuidor do livro.
         </para>
       </authorblurb>
-
     </author>
 
     <editor>
