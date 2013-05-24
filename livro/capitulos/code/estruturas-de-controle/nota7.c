@@ -1,10 +1,15 @@
 #include <stdio.h>
 
-void main() {
-  float nota;
-  scanf("%f", &nota);
-  if (nota >= 7)
-    printf("Aprovado");
-  else
-    printf("Reprovado");
+int main() {
+    float nota;
+    
+    scanf("%f%*c", &nota);
+    
+    if (nota >= 7)
+       printf("Aprovado");
+    else
+        printf("Reprovado");
+    
+    getchar();
+    return 0;
 }

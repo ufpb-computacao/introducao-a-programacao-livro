@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-void main() {
-  int cont = 1;
-  while (cont <= 10) {
-    printf("isto serÃ¡ mostrado 10 vezes\n");
-    cont++;
-  }
+int main() {
+    int cont = 1;
+    
+    while (cont <= 10) {
+        printf("Isto será mostrado 10 vezes.\n");
+        cont++;
+    }
+    
+    getchar();
+    return 0;
 }
 

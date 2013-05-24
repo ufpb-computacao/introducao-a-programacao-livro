@@ -1,10 +1,15 @@
 #include <stdio.h>
 
-void main() {
-  int x = 5;
-  if (x)
-    printf("Isto ser√° mostrado");
-  if (x - 5)
-    printf("Isto n√£o sera mostrado");
+int main() {
+    int x = 5;
+    
+    if (x)
+       printf("Isto ser· mostrado");
+       
+    if (x - 5)
+       printf("Isto n„o ser· mostrado");
+       
+    getchar();
+    return 0;
 }
 
