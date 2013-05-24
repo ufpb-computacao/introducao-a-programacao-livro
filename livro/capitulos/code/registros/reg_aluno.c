@@ -1,6 +1,6 @@
 struct Aluno {
-  char nome[100];
   int matricula;
+  char nome[100];
   float nota1 ;
   float nota2;
 };
