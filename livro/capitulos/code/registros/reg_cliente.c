@@ -1,5 +1,5 @@
 struct Cliente {
-  long codigo;
+  long  codigo;
   char  nome[256];
   int   cpf[11];
 };
