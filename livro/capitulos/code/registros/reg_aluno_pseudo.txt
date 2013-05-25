@@ -1,0 +1,5 @@
+REGISTRO Aluno
+  matricula, nota1, nota2: NUMÉRICO
+  nome: TEXTO
+FIM_REGISTRO
+

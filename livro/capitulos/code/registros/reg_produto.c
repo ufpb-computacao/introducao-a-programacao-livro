@@ -1,5 +1,5 @@
 struct Produto {
-  int   codigo;
+  long  codigo;
   char  nome[100];
   float preco;
 };
