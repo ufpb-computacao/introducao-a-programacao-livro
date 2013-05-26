@@ -1,0 +1,6 @@
+REGISTRO Produto
+  codigo: NUMÉRICO
+  nome: TEXTUAL
+  preco: NUMÉRICO
+FIM_REGISTRO
+

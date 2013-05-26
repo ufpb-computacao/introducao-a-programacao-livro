@@ -1,0 +1,5 @@
+REGISTRO Conta
+  codigo,cpf: NUMÉRICO
+  nome: TEXTUAL
+FIM_REGISTRO
+
