@@ -1,5 +1,5 @@
-REGISTRO Conta
-  codigo,cpf: NUMÉRICO
+REGISTRO Cliente
+  codigo, cpf: NUMÉRICO
   nome: TEXTUAL
 FIM_REGISTRO
 

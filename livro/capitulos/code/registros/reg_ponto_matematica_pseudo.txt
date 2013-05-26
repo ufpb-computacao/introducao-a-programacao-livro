@@ -1,4 +1,4 @@
 REGISTRO Ponto
-  x,y: NUMÉRICO
+  x, y: NUMÉRICO
 FIM_REGISTRO
 
