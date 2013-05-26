@@ -14,7 +14,7 @@ int main() {
         if (valor < menor)
             menor = valor;
             
-        quantidade++; //solução do problema
+        quantidade++; // Solucao do problema
     }
     
     printf("Menor valor lido: %.2f", menor);
