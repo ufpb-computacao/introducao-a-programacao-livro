@@ -17,7 +17,7 @@ int main() {
         quantidade++; //solução do problema
     }
     
-    printf("O menor valor lido foi: %.2f", menor);
+    printf("Menor valor lido: %.2f", menor);
     
     getchar();
     return 0;

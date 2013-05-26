@@ -14,7 +14,7 @@ int main() {
               menor = valor;
     }
     
-    printf("o menor valor lido foi: %f", menor);
+    printf("Menor valor lido: %f", menor);
     
     getchar();
     return 0;

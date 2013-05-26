@@ -7,9 +7,9 @@ int main() {
     scanf("%i%*c", &b);
     
     if (a > b)
-       printf("A é maior que B");
+       printf("A e' maior que B");
     else if (b > a)
-        printf("B é maior que A");
+        printf("B e' maior que A");
     else
         printf("A = B");
         

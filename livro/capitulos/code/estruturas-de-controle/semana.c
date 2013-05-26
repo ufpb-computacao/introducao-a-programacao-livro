@@ -13,7 +13,7 @@ int main() {
         printf("segunda-feira");
         break;
     case 3:
-        printf("terça-feira");
+        printf("terca-feira");
         break;
     case 4:
         printf("quarta-feira");
@@ -22,10 +22,10 @@ int main() {
         printf("quinta-feira");
         break;
     case 6:
-        printf("sábado");
+        printf("sabado");
         break;
     default:
-        printf("dia da semana inválido");
+        printf("dia da semana invalido");
         break;
     }
     

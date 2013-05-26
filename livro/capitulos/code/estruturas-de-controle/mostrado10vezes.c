@@ -4,7 +4,7 @@ int main() {
     int cont = 1;
     
     while (cont <= 10) {
-        printf("Isto será mostrado 10 vezes.\n");
+        printf("Isto sera' mostrado 10 vezes.\n");
         cont++;
     }
     
