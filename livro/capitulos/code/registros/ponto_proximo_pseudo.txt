@@ -15,3 +15,5 @@ ENQUANTO i < QUANTIDADE_DE_PONTOS FAÇA
     ponto_mais_proximo = i
   i = i+1
 FIM-ENQUANTO
+
+ESCREVA p[ponto_mais_proximo].x,p[ponto_mais_proximo].y
