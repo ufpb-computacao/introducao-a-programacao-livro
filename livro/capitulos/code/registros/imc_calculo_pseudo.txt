@@ -2,8 +2,8 @@ QUANTIDADE_DE_PESSOAS = 3
 
 ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
   LEIA pessoas[i].nome
-  LEIA pessoas[i].peso
   LEIA pessoas[i].altura
+  LEIA pessoas[i].peso
   LEIA pessoas[i].cpf
   LEIA pessoas[i].sexo
 FIM-ENQUANTO
