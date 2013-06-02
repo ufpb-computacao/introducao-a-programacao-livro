@@ -10,7 +10,7 @@ maior_distancia_ao_quadrado = MAIOR_INTEIRO
 ponto_mais_proximo = 1
 i=1
 ENQUANTO i < QUANTIDADE_DE_PONTOS FAÇA
-  distancia_ao_quadrado = (pontos[i].x-pontos[0].x) * (pontos[i].x-pontos[0].x)+(pontos[i].y-pontos[0].y) * (pontos[i].y-pontos[0].y)
+  distancia_ao_quadrado = (pontos[i].x-pontos[0].x)*(pontos[i].x-pontos[0].x)+(pontos[i].y-pontos[0].y)*(pontos[i].y-pontos[0].y)
   SE maior_distancia_ao_quadrado < distancia_ao_quadrado ENTÃO
     ponto_mais_proximo = i
   i = i+1
