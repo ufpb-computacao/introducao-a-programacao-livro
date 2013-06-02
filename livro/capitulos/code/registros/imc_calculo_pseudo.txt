@@ -14,7 +14,7 @@ ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
   SE pessoas[i].cpf == cpf_localizador ENTÃO
     ESCREVE pessoas[i].nome
     ESCREVE pessoas[i].sexo
-    // Imprime o IMC: peso / (altura * altura)
+    // IMC = peso / (altura * altura)
     ESCREVE pessoas[i].peso / (pessoas[i].altura * pessoas[i].altura)
 FIM-ENQUANTO
 
