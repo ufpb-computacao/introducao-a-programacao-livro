@@ -1,20 +1,24 @@
 QUANTIDADE_DE_PESSOAS = 3
 
+i=0
 ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
   LEIA pessoas[i].nome
   LEIA pessoas[i].altura
   LEIA pessoas[i].peso
   LEIA pessoas[i].cpf
   LEIA pessoas[i].sexo
+  i = i+1
 FIM-ENQUANTO
 
 LEIA cpf_localizador
 
+i=0
 ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
   SE pessoas[i].cpf == cpf_localizador ENTÃO
     ESCREVE pessoas[i].nome
     ESCREVE pessoas[i].sexo
     // IMC = peso / (altura * altura)
     ESCREVE pessoas[i].peso / (pessoas[i].altura * pessoas[i].altura)
+  i = i+1
 FIM-ENQUANTO
 
