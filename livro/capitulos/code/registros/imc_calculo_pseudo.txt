@@ -1,16 +1,20 @@
-QUANTIDADE_DE_ALUNOS = 3
+QUANTIDADE_DE_PESSOAS = 3
 
-ENQUANTO i < QUANTIDADE_DE_ALUNOS FAÇA
-  LEIA ALUNOS[i].NOME
-  LEIA ALUNOS[i].MATRICULA
-  LEIA ALUNOS[i].NOTA1
-  LEIA ALUNOS[i].NOTA2
+ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
+  LEIA pessoas[i].nome
+  LEIA pessoas[i].peso
+  LEIA pessoas[i].altura
+  LEIA pessoas[i].cpf
+  LEIA pessoas[i].sexo
 FIM-ENQUANTO
 
-ENQUANTO i < QUANTIDADE_DE_ALUNOS FAÇA
-  ESCREVA ALUNOS[i].MATRICULA
-  ESCREVA ALUNOS[i].NOME
-  ESCREVA (ALUNOS[i].NOTA1 + ALUNOS[i].NOTA2)/2
+LEIA cpf_localizador
+
+ENQUANTO i < QUANTIDADE_DE_PESSOAS FAÇA
+  SE pessoas[i].cpf == cpf_localizador ENTÃO
+    ESCREVE pessoas[i].nome
+    ESCREVE pessoas[i].sexo
+    // Imprime o IMC: peso / (altura * altura)
+    ESCREVE pessoas[i].peso / (pessoas[i].altura * pessoas[i].altura)
 FIM-ENQUANTO
 
-IMC
