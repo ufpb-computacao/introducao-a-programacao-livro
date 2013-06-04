@@ -3,24 +3,28 @@ DECLARA clientes: Cliente[QUANTIDADE_DE_CLIENTES]
 DECLARA contas:   Conta[QUANTIDADE_DE_CLIENTES]
 
 PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
-  LEIA clientes[i].codigo_do_cliente = i
   LEIA clientes[i].cpf
   LEIA clientes[i].nome
   LEIA contas[i].saldo // depósito inicial
+
+  clientes[i].codigo = i
   contas[i].numero_da_conta = i
-  codigo_do_cliente
+  contas[i].codigo_do_cliente = clientes[i].codigo
 FIM_PARA
 
-PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
-  ESCREVA produtos[i].codigo
-  ESCREVA produtos[i].nome
-FIM_PARA
+DECLARA operacao: TEXTUAL
+DECLARA num_conta, valor: NUMÉRICO
+LEIA operacao, num_conta, valor
 
-DECLARA codigo_digitado: NUMÉRICO
-LEIA codigo_digitado
+SE operacao == "saque" OU operacao == "deposito" ENTÃO
+  PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+    SE contas[i].numero_da_conta == num_conta ENTÃO
+      SE SE operacao == "saque" ENTÃO
+        contas[i].saldo = contas[i].saldo - valor
+      SE operacao == "deposito" ENTÃO
+        contas[i].saldo = contas[i].saldo + valor
+  FIM_PARA
 
-PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
-  SE produtos[i].codigo == codigo_digitado ENTÃO
-    ESCREVA produtos[i].preco
-FIM_PARA
+SE operacao == "sair" ENTÃO
+  
 
