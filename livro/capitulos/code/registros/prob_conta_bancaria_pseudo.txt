@@ -1,0 +1,26 @@
+QUANTIDADE_DE_CLIENTES = 3
+DECLARA clientes: Cliente[QUANTIDADE_DE_CLIENTES]
+DECLARA contas:   Conta[QUANTIDADE_DE_CLIENTES]
+
+PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+  LEIA clientes[i].codigo_do_cliente = i
+  LEIA clientes[i].cpf
+  LEIA clientes[i].nome
+  LEIA contas[i].saldo // depósito inicial
+  contas[i].numero_da_conta = i
+  codigo_do_cliente
+FIM_PARA
+
+PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+  ESCREVA produtos[i].codigo
+  ESCREVA produtos[i].nome
+FIM_PARA
+
+DECLARA codigo_digitado: NUMÉRICO
+LEIA codigo_digitado
+
+PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+  SE produtos[i].codigo == codigo_digitado ENTÃO
+    ESCREVA produtos[i].preco
+FIM_PARA
+
