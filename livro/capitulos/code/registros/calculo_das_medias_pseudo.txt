@@ -1,19 +1,15 @@
 QUANTIDADE_DE_ALUNOS = 3
 
-i=0
-ENQUANTO i < QUANTIDADE_DE_ALUNOS FAÇA
+PARA i=0 ATÉ QUANTIDADE_DE_ALUNOS FAÇA
   LEIA alunos[i].nome
   LEIA alunos[i].matricula
   LEIA alunos[i].nota1
   LEIA alunos[i].nota2
-  i = i + 1
-FIM-ENQUANTO
+FIM_PARA
 
-i=0
-ENQUANTO i < QUANTIDADE_DE_ALUNOS FAÇA
+PARA i=0 ATÉ QUANTIDADE_DE_ALUNOS FAÇA
   ESCREVA alunos[i].matricula
   ESCREVA alunos[i].nome
   ESCREVA (alunos[i].nota1 + alunos[i].nota2)/2
-  i = i + 1
-FIM-ENQUANTO
+FIM_PARA
 

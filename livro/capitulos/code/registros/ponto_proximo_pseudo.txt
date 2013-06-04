@@ -1,20 +1,20 @@
 QUANTIDADE_DE_PONTOS = 5
 
-i=0
-ENQUANTO i < QUANTIDADE_DE_PONTOS FAÇA
+PARA i=0 ATÉ QUANTIDADE_DE_PONTOS FAÇA
   LEIA p[i].x
   LEIA p[i].y
   i = i+1
-FIM-ENQUANTO
+FIM_PARA
 
 maior_distancia_ao_quadrado = MAIOR_INTEIRO
 ponto_mais_proximo = 1
-i=1
-ENQUANTO i < QUANTIDADE_DE_PONTOS FAÇA
-  distancia_ao_quadrado = (pontos[i].x-pontos[0].x)*(pontos[i].x-pontos[0].x)+(pontos[i].y-pontos[0].y)*(pontos[i].y-pontos[0].y)
+
+PARA i=1 ATÉ QUANTIDADE_DE_PONTOS FAÇA
+  distancia_ao_quadrado = (pontos[i].x-pontos[0].x)*
+    (pontos[i].x-pontos[0].x)+(pontos[i].y-pontos[0].y)*
+    (pontos[i].y-pontos[0].y)
   SE maior_distancia_ao_quadrado < distancia_ao_quadrado ENTÃO
     ponto_mais_proximo = i
-  i = i+1
-FIM-ENQUANTO
+FIM_PARA
 
 ESCREVA p[ponto_mais_proximo].x,p[ponto_mais_proximo].y
