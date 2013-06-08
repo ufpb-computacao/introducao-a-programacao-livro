@@ -13,18 +13,22 @@ PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
 FIM_PARA
 
 DECLARA operacao: TEXTUAL
-DECLARA num_conta, valor: NUMÉRICO
-LEIA operacao, num_conta, valor
+DECLARA num_conta, valor, sair=0: NUMÉRICO
 
-SE operacao == "saque" OU operacao == "deposito" ENTÃO
-  PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
-    SE contas[i].numero_da_conta == num_conta ENTÃO
-      SE SE operacao == "saque" ENTÃO
-        contas[i].saldo = contas[i].saldo - valor
-      SE operacao == "deposito" ENTÃO
-        contas[i].saldo = contas[i].saldo + valor
-  FIM_PARA
+ENQUANTO sair == 0 FAÇA
+  LEIA operacao
 
-SE operacao == "sair" ENTÃO
-  
+  SE operacao == "saque" OU operacao == "deposito" ENTÃO
+    LEIA num_conta, valor
+    PARA i=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+      SE contas[i].numero_da_conta == num_conta ENTÃO
+        SE operacao == "saque" ENTÃO
+          contas[i].saldo = contas[i].saldo - valor
+        SE operacao == "deposito" ENTÃO
+          contas[i].saldo = contas[i].saldo + valor
+    FIM_PARA
+  SE operacao == "sair" ENTÃO
+    sair = 1
+FIM_ENQUANTO
+
 
