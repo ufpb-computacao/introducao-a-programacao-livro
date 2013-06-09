@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <limits.h> // contém definição de INT_MAX;
+#include <limits.h> // contém definição de INT_MAX
 
 struct Ponto {
 	int x;
@@ -17,7 +17,7 @@ int main(){
 		scanf("%d %d",&pontos[i].x,&pontos[i].y);
 	}
 
-	int menor_distancia_ao_quadrado = INT_MAX;
+	int menor_distancia_ao_quadrado = INT_MAX; // maior inteiro
 	int ponto_mais_proximo = 1;
 
 	for(int i=1; (i < QUANTIDADE_DE_PONTOS); i++){
@@ -31,7 +31,7 @@ int main(){
 	}
 
 	printf("\nPonto mais proximo: (%d,%d)\n", 
-	pontos[ponto_mais_proximo].x, pontos[ponto_mais_proximo].y);
+		pontos[ponto_mais_proximo].x, pontos[ponto_mais_proximo].y);
 
 	getchar();
 	return 0;
