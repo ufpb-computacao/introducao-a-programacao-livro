@@ -11,7 +11,6 @@ struct Aluno {
 
 int main(){
 	struct Aluno alunos[QUANTIDADE_DE_ALUNOS];
-	float media;
 
 	printf("Dados do aluno: nome(sem espacos), matricula, nota1, nota2\n");
 	for(int i=0; (i < QUANTIDADE_DE_ALUNOS); i++){
@@ -22,8 +21,8 @@ int main(){
 
 	printf("\nMatricula\tNome\tMedia\n");
 	for(int i=0; (i < QUANTIDADE_DE_ALUNOS); i++){
-		media = (alunos[i].nota1 + alunos[i].nota2)/2;
-		printf("%i\t%s\t%1.2f\n",alunos[i].matricula,alunos[i].nome,media);
+		printf("%i\t%s\t%1.2f\n",alunos[i].matricula,alunos[i].nome,
+			(alunos[i].nota1 + alunos[i].nota2)/2);
 	}
 
 	getchar();
