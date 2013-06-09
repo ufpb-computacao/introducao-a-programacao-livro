@@ -29,7 +29,8 @@ int main(){
 		if (cpf_localizador == pessoas[i].cpf){
 			float imc = pessoas[i].peso / (pessoas[i].altura * 
 					pessoas[i].altura);
-			printf("\n%c\t%s\t%1.2f\n",pessoas[i].sexo, pessoas[i].nome, imc);
+			printf("\n%c\t%s\t%1.2f\n",pessoas[i].sexo, 
+				pessoas[i].nome, imc);
 			break;
 		}
 	}
