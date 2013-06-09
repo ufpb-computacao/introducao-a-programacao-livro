@@ -1,0 +1,8 @@
+Campos: nome, altura, peso, cpf, sexo
+
+Informe os dados da pessoa(1): Jesuíno 1.82 79 48755891748 m
+Informe os dados da pessoa(2): Maria 1.66 52 72779162201 f
+Informe os dados da pessoa(3): Virgulino 1.75 80 71443626406 m
+Informe o CPF da pessoa: 72779162201
+Sexo	Nome	IMC
+f	Maria	18.87
