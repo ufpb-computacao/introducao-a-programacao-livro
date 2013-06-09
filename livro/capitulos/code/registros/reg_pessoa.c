@@ -3,6 +3,6 @@ struct Pessoa {
 	char  sexo; // 'm': masculino, 'f': femino
 	float peso;
 	float altura;
-	long  cpf;
+	unsigned long long;
 };
 
