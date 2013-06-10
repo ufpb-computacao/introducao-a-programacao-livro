@@ -17,4 +17,4 @@ Informe a operação: 1-Saque 2-Deposito 3-Sair: 2
 Informe numero-da-conta e valor: 2 400
 DEPOSITO: 400.00
 Cliente: Virgulino Saldo atual: 1000.00
-Informe a operação: 1-Saque 2-Deposito 3-Sair: 
+Informe a operação: 1-Saque 2-Deposito 3-Sair: 3

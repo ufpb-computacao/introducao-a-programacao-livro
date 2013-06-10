@@ -15,7 +15,6 @@ struct Conta {
 #define QUANTIDADE_DE_CLIENTES 3
 #define OPERACAO_SAQUE 1
 #define OPERACAO_DEPOSITO 2
-#define OPERACAO_SAIR 3
 
 int main(){
   struct Cliente clientes[QUANTIDADE_DE_CLIENTES];
@@ -33,13 +32,10 @@ int main(){
 
     printf("\nCliente: %s Conta: %ld Saldo inicial: %1.2lf\n",
       clientes[i].nome, contas[i].numero_da_conta, contas[i].saldo);
-
   }
 
-// como ainda não aprendemos a comparar strings,
-// vamos usar operação como número.
-
-  int operacao;
+  int operacao; // como ainda não aprendemos a comparar strings,
+                // vamos usar 'operação' como numérico.
   long num_conta;
   double valor;
   int sair=0; // FALSE
@@ -49,9 +45,8 @@ int main(){
     scanf("%d", &operacao);
 
     if (operacao == OPERACAO_SAQUE || operacao == OPERACAO_DEPOSITO){
-    printf("\nInforme numero-da-conta e valor: ");
-    scanf("%ld %lf", &num_conta, &valor);
-
+      printf("\nInforme numero-da-conta e valor: ");
+      scanf("%ld %lf", &num_conta, &valor);
       for(int i=0; (i < QUANTIDADE_DE_CLIENTES); i++){
         if (contas[i].numero_da_conta == num_conta) {
           if (operacao == OPERACAO_SAQUE){
