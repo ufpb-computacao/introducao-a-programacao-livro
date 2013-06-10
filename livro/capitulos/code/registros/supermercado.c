@@ -29,7 +29,7 @@ int main(){
 
 	for(int i=1; (i < QUANTIDADE_DE_PRODUTOS); i++){
 		if (produtos[i].codigo == codigo_digitado) {
-			printf("\nPreço do produto: R$ %1.2f\n", produtos[i].preco);
+			printf("\nPreço: R$ %1.2f\n", produtos[i].preco);
 		}
 	}
 
