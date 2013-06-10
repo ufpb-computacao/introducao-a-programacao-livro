@@ -1,0 +1,20 @@
+Campos: cpf nome deposito-inicial
+
+Dados para abertura da conta(1): 48755891748 Jesuíno 1500
+Cliente: Jesuíno Conta: 0 Saldo inicial: 1500.00
+
+Dados para abertura da conta(2): 72779162201 Maria 200
+Cliente: Maria Conta: 1 Saldo inicial: 200.00
+
+Dados para abertura da conta(3): 71443626406 Virgulino 600
+Cliente: Virgulino Conta: 2 Saldo inicial: 600.00
+
+Informe a operação: 1-Saque 2-Deposito 3-Sair: 1
+Informe numero-da-conta e valor: 0 300
+SAQUE: 300.00
+Cliente: Jesuíno Saldo atual: 1200.00
+Informe a operação: 1-Saque 2-Deposito 3-Sair: 2
+Informe numero-da-conta e valor: 2 400
+DEPOSITO: 400.00
+Cliente: Virgulino Saldo atual: 1000.00
+Informe a operação: 1-Saque 2-Deposito 3-Sair: 

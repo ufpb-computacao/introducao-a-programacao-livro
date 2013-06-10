@@ -26,6 +26,10 @@ ENQUANTO sair == 0 FAÇA
           contas[i].saldo = contas[i].saldo - valor
         SE operacao == "deposito" ENTÃO
           contas[i].saldo = contas[i].saldo + valor
+      PARA j=0 ATÉ QUANTIDADE_DE_CLIENTES FAÇA
+        SE clientes[j].codigo == contas[i].codigo_do_cliente ENTÃO
+          ESCREVE clientes[j].nome, contas[i].saldo
+      FIM_PARA
     FIM_PARA
   SE operacao == "sair" ENTÃO
     sair = 1
