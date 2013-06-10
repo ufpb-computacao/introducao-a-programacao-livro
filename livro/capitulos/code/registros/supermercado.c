@@ -11,7 +11,7 @@ struct Produto {
 int main(){
 	struct Produto produtos[QUANTIDADE_DE_PRODUTOS];
 
-	printf("Campos: codigo-do-produto nome preco, y\n");
+	printf("Campos: codigo-do-produto nome preco\n");
 	for(int i=0; (i < QUANTIDADE_DE_PRODUTOS); i++){
 		printf("\nInforme os dados do produto(%i): ",i+1);
 		scanf("%ld %s %f",&produtos[i].codigo,produtos[i].nome,
