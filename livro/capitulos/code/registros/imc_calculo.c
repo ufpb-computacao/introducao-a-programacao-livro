@@ -28,7 +28,7 @@ int main(){
 	for(int i=0; (i < QUANTIDADE_DE_PESSOAS); i++){
 		if (cpf_localizador == pessoas[i].cpf){
 			float imc = pessoas[i].peso / (pessoas[i].altura * 
-					pessoas[i].altura);
+				pessoas[i].altura);
 			printf("\n%c\t%s\t%1.2f\n",pessoas[i].sexo, 
 				pessoas[i].nome, imc);
 			break;

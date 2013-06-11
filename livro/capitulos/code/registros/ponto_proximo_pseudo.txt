@@ -5,14 +5,14 @@ PARA i=0 ATÉ QUANTIDADE_DE_PONTOS FAÇA
   LEIA p[i].y
 FIM_PARA
 
-menor_distancia_ao_quadrado = MAIOR_INTEIRO
+menor_distancia_ao_quadrado = MAIOR_INTEIRO <1>
 ponto_mais_proximo = 1
 
 PARA i=1 ATÉ QUANTIDADE_DE_PONTOS FAÇA
   distancia_ao_quadrado = (pontos[i].x-pontos[0].x)*
     (pontos[i].x-pontos[0].x)+(pontos[i].y-pontos[0].y)*
     (pontos[i].y-pontos[0].y)
-  SE distancia_ao_quadrado < menor_distancia_ao_quadrado ENTÃO
+  SE distancia_ao_quadrado < menor_distancia_ao_quadrado ENTÃO <1>
     ponto_mais_proximo = i
     menor_distancia_ao_quadrado = distancia_ao_quadrado
 FIM_PARA

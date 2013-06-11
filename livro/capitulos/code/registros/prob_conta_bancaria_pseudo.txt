@@ -31,7 +31,7 @@ ENQUANTO sair == 0 FAÇA
             ESCREVE clientes[j].nome, contas[i].saldo
         FIM_PARA
     FIM_PARA
-  SE operacao == "sair" ENTÃO
+  SENÃO operacao == "sair" ENTÃO
     sair = 1
 FIM_ENQUANTO
 
