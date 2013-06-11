@@ -12,7 +12,7 @@ struct Aluno {
 int main(){
 	struct Aluno alunos[QUANTIDADE_DE_ALUNOS];
 
-	printf("Dados do aluno: nome(sem espacos), matricula, nota1, nota2\n");
+	printf("Dados: nome(sem espacos), matricula, nota1, nota2\n");
 	for(int i=0; (i < QUANTIDADE_DE_ALUNOS); i++){
 		printf("\nInforme os dados do aluno(%i): ",i+1);
 		scanf("%s %i %f %f",alunos[i].nome, &alunos[i].matricula,
