@@ -22,11 +22,11 @@ int main(){
 
 	printf("\nInforme o CPF da pessoa: ");
 	long long cpf_localizador;
-	scanf("%Lu",&cpf_localizador);
+	scanf("%Lu",&cpf_localizador); // <1>
 
 	printf("\nSexo\tNome\tIMC");
-	for(int i=0; (i < QUANTIDADE_DE_PESSOAS); i++){
-		if (cpf_localizador == pessoas[i].cpf){
+	for(int i=0; (i < QUANTIDADE_DE_PESSOAS); i++){ //<2>
+		if (cpf_localizador == pessoas[i].cpf){ //<2>
 			float imc = pessoas[i].peso / (pessoas[i].altura * 
 				pessoas[i].altura);
 			printf("\n%c\t%s\t%1.2f\n",pessoas[i].sexo, 

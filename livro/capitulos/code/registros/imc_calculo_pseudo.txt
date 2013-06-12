@@ -8,10 +8,10 @@ PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA
   LEIA pessoas[i].sexo
 FIM-ENQUANTO
 
-LEIA cpf_localizador
+LEIA cpf_localizador <1>
 
-PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA
-  SE pessoas[i].cpf == cpf_localizador ENTÃO
+PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA      <2>
+  SE pessoas[i].cpf == cpf_localizador ENTÃO <2>
     ESCREVE pessoas[i].nome
     ESCREVE pessoas[i].sexo
     // IMC = peso / (altura * altura)
