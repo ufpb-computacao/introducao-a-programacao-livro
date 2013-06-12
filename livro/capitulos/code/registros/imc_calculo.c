@@ -5,7 +5,7 @@ struct Pessoa {
 	char  sexo; // 'm': masculino, 'f': femino
 	float peso;
 	float altura;
-	unsigned long long  cpf;
+	long long  cpf;
 };
 
 #define QUANTIDADE_DE_PESSOAS 3
@@ -21,7 +21,7 @@ int main(){
 	}
 
 	printf("\nInforme o CPF da pessoa: ");
-	unsigned long long cpf_localizador;
+	long long cpf_localizador;
 	scanf("%Lu",&cpf_localizador);
 
 	printf("\nSexo\tNome\tIMC");
