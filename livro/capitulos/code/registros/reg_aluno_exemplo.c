@@ -18,7 +18,6 @@ int main(){
 	printf("\n%d %s %1.2f %1.2f", aluno.matricula, aluno.nome, // <3>
 		aluno.nota1, aluno.nota2); //<3>
 
-
 	getchar();
 	return 0;
 }
