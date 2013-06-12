@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 typedef struct {
-	int matricula;
-	char nome[100];
-	float nota1;
-	float nota2;
+	int matricula; // <1>
+	char nome[100];// <1>
+	float nota1;   // <1>
+	float nota2;   // <1>
 } Aluno;
 
 typedef struct {
-	char nome[256];
-	long long cpf;
+	char nome[256];// <2>
+	long long cpf; // <2>
 } Cliente;
 
 int main() {
