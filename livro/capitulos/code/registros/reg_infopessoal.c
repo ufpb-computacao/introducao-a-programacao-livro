@@ -20,11 +20,13 @@ typedef struct {
 } Cliente;
 
 int main() {
-	Aluno a =  {15, "Virgulino da Silva", 9.0f, 10.0f, {58051400, 1}}; //<1>
+	Aluno a =  {15, "Virgulino da Silva", 9.0f, 10.0f, {58051400, 1}};
 	Cliente c= {"Maria Bonita", 72779162201, {58051400, 2}}; //<2>
 
-	printf("Aluno: %s %1Ld %d.\n",   a.nome, a.info_pessoal.cep, a.matricula);
-	printf("Cliente: %s %1Ld %1Ld.\n", c.nome, c.info_pessoal.cep, c.cpf);
+	printf("Aluno: %s %1Ld %d.\n", a.nome, a.info_pessoal.cep, 
+		a.matricula);
+	printf("Cliente: %s %1Ld %1Ld.\n", c.nome, c.info_pessoal.cep, 
+		c.cpf);
 
 	return 0;
 }
