@@ -21,7 +21,7 @@ typedef struct {
 
 int main() {
 	Aluno a =  {15, "Virgulino da Silva", 9.0f, 10.0f, {58051400, 1}};
-	Cliente c= {"Maria Bonita", 72779162201, {58051400, 2}};
+	Cliente c = {"Maria Bonita", 72779162201, {58051400, 2}};
 
 	printf("Aluno: %s %1Ld %d.\n", a.nome, a.info_pessoal.cep, 
 		a.matricula);
