@@ -1,5 +1,5 @@
 REGISTRO InformacaoPessoal
-  telefone: TEXTO
+  cep: NUMÉRICO
   estado_civil: TEXTO
 FIM_REGISTRO
 
