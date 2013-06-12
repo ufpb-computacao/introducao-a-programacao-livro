@@ -3,22 +3,22 @@
 
 struct Ponto {
 	int x;
-	char y;
+	int y;
 };
 
+#define QUANTIDADE_DE_PONTOS 3
+
 int main(){
-	struct Ponto primeiro_ponto;
-	struct Ponto segundo_ponto;
+	struct Ponto pontos[QUANTIDADE_DE_PONTOS];
 
-	primeiro_ponto.x = 4;
-	primeiro_ponto.y = 6;
-	segundo_ponto.x = 3;
-	segundo_ponto.y = 9;
+	pontos[0].x = -4;  pontos[0].y = 7;
+	pontos[1].x = 2; pontos[1].y = -9;
+	pontos[2].x = 5; pontos[2].y = 3;
 
-	if (primeiro_ponto.y > segundo_ponto.y)
-		printf("Primeiro ponto e' mais alto que o segundo.");
-	else
-		printf("Segundo ponto e' mais alto que o primeiro.");
+	for (int i = 0; i<QUANTIDADE_DE_PONTOS; i++){
+		if(pontos[i].y > 0)
+			printf("\nPonto abaixo da acima: (%d,%d)", pontos[i].x, pontos[i].y);
+	}
 
 
 	getchar();

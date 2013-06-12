@@ -1,1 +1,2 @@
-Segundo ponto e' mais alto que o primeiro.
+Ponto abaixo da acima: (-4,7)
+Ponto abaixo da acima: (5,3)
