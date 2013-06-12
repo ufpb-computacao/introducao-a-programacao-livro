@@ -16,7 +16,6 @@ int main(){
 	else
 		printf("\nProduto cadastrado.");
 
-
 	getchar();
 	return 0;
 }
