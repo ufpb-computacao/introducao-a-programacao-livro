@@ -17,9 +17,9 @@ int main(){
 
 	for (int i = 0; i<QUANTIDADE_DE_PONTOS; i++){
 		if(pontos[i].y > 0)
-			printf("\nPonto abaixo da acima: (%d,%d)", pontos[i].x, pontos[i].y);
+			printf("\nPonto acima da reta: (%d,%d)", 
+				pontos[i].x, pontos[i].y);
 	}
-
 
 	getchar();
 	return 0;
