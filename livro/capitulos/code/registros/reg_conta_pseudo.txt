@@ -1,4 +1,4 @@
 REGISTRO Conta
-  numero_da_conta, codigo_do_cliente, saldo: NUMÉRICO
+  numero_da_conta, cpf_do_cliente, saldo: NUMÉRICO
 FIM_REGISTRO
 
