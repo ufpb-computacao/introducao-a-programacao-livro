@@ -1,0 +1,18 @@
+REGISTRO InformacaoPessoal
+  telefone: TEXTO
+  estado_civil: TEXTO
+FIM_REGISTRO
+
+REGISTRO Aluno
+  matricula: NUMÉRICO
+  nome: TEXTO
+  nota1, nota2: NUMÉRICO
+  info_pessoal: InformacaoPessoal
+FIM_REGISTRO
+
+REGISTRO Cliente
+  cpf: NUMÉRICO
+  nome: TEXTUAL
+  info_pessoal: InformacaoPessoal
+FIM_REGISTRO
+
