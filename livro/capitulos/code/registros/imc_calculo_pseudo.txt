@@ -6,8 +6,9 @@ PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA
   LEIA pessoas[i].peso
   LEIA pessoas[i].cpf
   LEIA pessoas[i].sexo
-FIM-ENQUANTO
+FIM-PARA
 
+DECLARA cpf_localizador: NUMÉRICO
 LEIA cpf_localizador <1>
 
 PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA      <2>
@@ -16,5 +17,5 @@ PARA i=0 ATÉ QUANTIDADE_DE_PESSOAS FAÇA      <2>
     ESCREVE pessoas[i].sexo
     // IMC = peso / (altura * altura)
     ESCREVE pessoas[i].peso / (pessoas[i].altura * pessoas[i].altura)
-FIM-ENQUANTO
+FIM-PARA
 
