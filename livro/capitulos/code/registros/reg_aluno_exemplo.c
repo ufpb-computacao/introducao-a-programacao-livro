@@ -10,7 +10,7 @@ struct Aluno {
 
 int main(){
 	struct Aluno aluno;
-	strncpy(aluno.nome, "Maria", sizeof(aluno.nome));
+	strncpy(aluno.nome, "Maria Bonita", sizeof(aluno.nome));
 	aluno.matricula = 201328;
 	aluno.nota1 = 8.0;
 	aluno.nota2 = 9.0;
