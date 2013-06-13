@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-struct Produto {
+typedef struct {
 	long  codigo;
 	char  nome[100];
 	float preco;
-};
+} Produto;
 
 int main(){
-	struct Produto p;
-
+	Produto p;
 	scanf("%ld %s %f", &p.codigo, p.nome, &p.preco); //<1>
 
 	if (p.preco < 4)

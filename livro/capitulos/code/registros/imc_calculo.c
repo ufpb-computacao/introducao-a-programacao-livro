@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-struct Pessoa {
+typedef struct{
 	char  nome[100];
 	char  sexo; // 'm': masculino, 'f': femino
 	float peso;
 	float altura;
-	long long  cpf;
-};
+	long long cpf;
+} Pessoa;
 
 #define QUANTIDADE_DE_PESSOAS 3
 
 int main(){
-	struct Pessoa pessoas[QUANTIDADE_DE_PESSOAS];
+	Pessoa pessoas[QUANTIDADE_DE_PESSOAS];
 
 	printf("Campos: nome, altura, peso, cpf, sexo\n");
 	for(int i=0; (i < QUANTIDADE_DE_PESSOAS); i++){

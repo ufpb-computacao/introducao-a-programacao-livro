@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Ponto {
+typedef struct{
 	int x;
 	int y;
-};
+} Ponto;
 
 #define QUANTIDADE_DE_PONTOS 3 // <1>
 
 int main(){
-	struct Ponto pontos[QUANTIDADE_DE_PONTOS]; // <2>
+	Ponto pontos[QUANTIDADE_DE_PONTOS]; // <2>
 
 	pontos[0].x = -4;  pontos[0].y = 7;// <3>
 	pontos[1].x = 2; pontos[1].y = -9; // <3>

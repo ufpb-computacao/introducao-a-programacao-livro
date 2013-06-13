@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-struct Produto {
-  long  codigo;
-  char  nome[100];
-  float preco;
-};
+typedef struct {
+	long  codigo;
+	char  nome[100];
+	float preco;
+} Produto;
 
 #define QUANTIDADE_DE_PRODUTOS 5
 
 int main(){
-	struct Produto produtos[QUANTIDADE_DE_PRODUTOS];
+	Produto produtos[QUANTIDADE_DE_PRODUTOS];
 
 	printf("Campos: codigo-do-produto nome preco\n");
 	for(int i=0; (i < QUANTIDADE_DE_PRODUTOS); i++){

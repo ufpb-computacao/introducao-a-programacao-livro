@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <limits.h> // contém definição de INT_MAX
 
-struct Ponto {
+typedef struct{
 	int x;
 	int y;
-};
+} Ponto;
 
 #define QUANTIDADE_DE_PONTOS 5
 
 int main(){
-	struct Ponto pontos[QUANTIDADE_DE_PONTOS];
+	Ponto pontos[QUANTIDADE_DE_PONTOS];
 
 	printf("Campos: x, y\n");
 	for(int i=0; (i < QUANTIDADE_DE_PONTOS); i++){

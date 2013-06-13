@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Aluno {
+typedef struct {
 	int matricula;
 	char nome[100];
 	float nota1;
 	float nota2;
-};
+} Aluno;
+
 
 int main(){
-	struct Aluno aluno;
+	Aluno aluno;
 	aluno.matricula = 201328; //<1>
 	strncpy(aluno.nome, "Maria Bonita", sizeof(aluno.nome)); //<2>
 	aluno.nota1 = 8.0; //<1>

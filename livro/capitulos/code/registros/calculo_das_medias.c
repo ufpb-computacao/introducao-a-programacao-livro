@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-struct Aluno {
-	char nome[100];
+typedef struct {
 	int matricula;
-	float nota1 ;
+	char nome[100];
+	float nota1;
 	float nota2;
-};
+} Aluno;
+
 
 #define QUANTIDADE_DE_ALUNOS 3
 
 int main(){
-	struct Aluno alunos[QUANTIDADE_DE_ALUNOS];
+	Aluno alunos[QUANTIDADE_DE_ALUNOS];
 
 	printf("Dados: nome(sem espacos), matricula, nota1, nota2\n");
 	for(int i=0; (i < QUANTIDADE_DE_ALUNOS); i++){
