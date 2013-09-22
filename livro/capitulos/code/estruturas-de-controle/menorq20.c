@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &x);
     
     if (x < 20)
-       printf("O valor de X e' menor que 20.");
+       printf("O valor de x e' menor que 20.");
        
     return 0;   
 }

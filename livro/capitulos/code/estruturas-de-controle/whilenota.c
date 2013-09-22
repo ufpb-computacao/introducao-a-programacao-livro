@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float nota = 1;
+    float nota;
 
     scanf("%f", &nota);    
     while (nota != -1) {	        
