@@ -9,7 +9,6 @@ int main() {
     if (x - 5)
        printf("Isto nao sera' mostrado");
        
-    getchar();
     return 0;
 }
 

@@ -8,7 +8,6 @@ int main() {
         if (cont == 10) break;
     }
     
-    getchar();
     return 0;
 }
 

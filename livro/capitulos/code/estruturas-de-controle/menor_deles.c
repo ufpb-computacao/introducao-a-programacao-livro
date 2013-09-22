@@ -16,6 +16,5 @@ int main() {
     
     printf("Menor valor lido: %f", menor);
     
-    getchar();
     return 0;
 }

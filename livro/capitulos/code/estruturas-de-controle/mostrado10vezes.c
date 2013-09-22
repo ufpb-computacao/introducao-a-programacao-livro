@@ -8,7 +8,6 @@ int main() {
         cont++;
     }
     
-    getchar();
     return 0;
 }
 

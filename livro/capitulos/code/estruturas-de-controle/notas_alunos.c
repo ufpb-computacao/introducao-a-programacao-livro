@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int nota = 0, cont = 0, soma = 0;
+    float nota = 0, soma = 0;
+    int cont = 0;
     
     while (nota != -1) {
         printf("Entre com a nota: ");
-        scanf("%i%*c", &nota);
-        soma += nota;
-        cont++;
+        scanf("%f", &nota);
+        
+        if (nota != -1) {
+	        soma += nota;
+			cont++;
+		}
     }
     
-    printf("media das notas: %.2f", (float) soma / cont);
+    printf("Media das notas: %.2f",  soma / cont);
     
-    getchar();
     return 0;
 }
 

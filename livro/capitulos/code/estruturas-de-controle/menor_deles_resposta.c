@@ -7,9 +7,9 @@ int main() {
     printf("Informe um valor: ");
     scanf("%f", &menor);
     
-    while (quantidade < 50) {
+    while (quantidade < 5) {
         printf("Informe um valor: ");
-        scanf("%f%*c", &valor);
+        scanf("%f", &valor);
         
         if (valor < menor)
             menor = valor;
@@ -17,9 +17,8 @@ int main() {
         quantidade++; // Solucao do problema
     }
     
-    printf("Menor valor lido: %.2f", menor);
+    printf("Menor valor lido: %.2f", menor);    
     
-    getchar();
     return 0;
 }
 

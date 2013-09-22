@@ -3,11 +3,10 @@
 int main() {
     int x;
     
-    scanf("%d%*c", &x);
+    scanf("%d", &x);
     
     if (x < 20)
-       printf("o valor de X e' menor que 20");
+       printf("O valor de X e' menor que 20.");
        
-    getchar();       
     return 0;   
 }

@@ -3,13 +3,12 @@
 int main() {
     float nota;
     
-    scanf("%f%*c", &nota);
+    scanf("%f", &nota);
     
     if (nota >= 7)
        printf("Aprovado");
     else
         printf("Reprovado");
     
-    getchar();
     return 0;
 }

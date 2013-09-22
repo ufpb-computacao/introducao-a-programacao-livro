@@ -4,7 +4,7 @@ int main() {
     int cont;
     
     for (cont = 1; ; cont++)
-        printf("laco infinito");        
+        printf("Laco infinito.\n");        
         
     return 0;
 }
