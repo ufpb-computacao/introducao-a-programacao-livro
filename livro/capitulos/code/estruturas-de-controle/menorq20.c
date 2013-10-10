@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-void main() {
-  int x;
-  scanf("%d", &x);
-  if (x < 20)
-    printf("o valor de X é menor que 20");
+int main() {
+    int x;
+    
+    scanf("%d", &x);
+    
+    if (x < 20)
+       printf("O valor de x e' menor que 20.");
+       
+    return 0;   
 }

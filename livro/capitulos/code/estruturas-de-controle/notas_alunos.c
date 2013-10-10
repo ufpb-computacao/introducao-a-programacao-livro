@@ -1,13 +1,21 @@
 #include <stdio.h>
 
-void main() {
-  int nota = 0, cont = 0, soma = 0;
-  while (nota != -1) {
-    printf("Entre com a nota: ");
-    scanf("%i", &nota);
-    soma += nota;
-    cont++;
-  }
-  printf("media das notas: %f", soma / cont);
+int main() {
+    float nota = 0, soma = 0;
+    int cont = 0;
+    
+    while (nota != -1) {
+        printf("Entre com a nota: ");
+        scanf("%f", &nota);
+        
+        if (nota != -1) {
+	        soma += nota;
+			cont++;
+		}
+    }
+    
+    printf("Media das notas: %.2f",  soma / cont);
+    
+    return 0;
 }
 

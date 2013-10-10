@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-void main() {
-  int cont;
-  for (cont = 1; ; cont++)
-    printf("laço infinito");
+int main() {
+    int cont;
+    
+    for (cont = 1; ; cont++)
+        printf("Laco infinito.\n");        
+        
+    return 0;
 }
 
