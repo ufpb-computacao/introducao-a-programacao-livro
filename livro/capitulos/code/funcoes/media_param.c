@@ -4,8 +4,8 @@
 void imprime_separador(float nota) {    // <1>
 	int i;
 	printf("\n");
-	for (i = 0; i < (int) lround(nota); i++) {
-		printf("=====");
+	for (i = 0; i < (int) lround(nota * 5.0); i++) {
+		printf("=");
 	}
 	printf(" %3.2f / 10.0\n", nota);
 	printf("\n");                                              
