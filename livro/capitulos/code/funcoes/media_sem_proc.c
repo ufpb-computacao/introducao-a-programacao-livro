@@ -6,9 +6,9 @@ int main () {
 	printf("Entre a nota da primeira prova: ");
 	scanf("%f", &nota1);
 
-	printf("\n");
-	printf("=============================================\n");
-	printf("\n");
+	printf("\n");                                              // <1>
+	printf("=============================================\n"); // <1>
+	printf("\n");                                              // <1>
 
 	printf("Entre a nota da segunda prova: ");
 	scanf("%f", &nota2);
