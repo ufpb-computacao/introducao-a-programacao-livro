@@ -1,6 +1,6 @@
-== Livro de disciplina
+== Livro da disciplina "Introdução à Programação"
 
-Este repositório contém um livro de uma disciplina.
+Este repositório contém um livro da disciplina "Introdução à Programação".
 
 Para conhecer o seu processo de produção consulte 
 https://github.com/edusantana/producao-computacao-ead-ufpb.
