@@ -1,0 +1,7 @@
+Entre a três notas, separadas por espacos: 4.5 5.6 8.9
+Nenhum numero negativo encontrado
+Media: 6.333333
+
+Entre a três notas, separadas por espacos: 4.5 -6.7 9.9
+Numero negativo encontrado!
+Media: 2.566667
