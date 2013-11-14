@@ -22,7 +22,7 @@ void possui_negativo(float n1, float n2, float n3) {
 int main() {
 	float nota1, nota2, nota3;
 
-	printf("Entre a três notas, separadas por espacos: ");
+	printf("Entre as três notas, separadas por espacos: ");
 	scanf("%f %f %f", &nota1, &nota2, &nota3);
 
 	possui_negativo(nota1, nota2, nota3);
