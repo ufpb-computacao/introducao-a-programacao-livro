@@ -13,7 +13,7 @@ int main() {
 	printf("Entre a três notas, separadas por espacos: ");
 	scanf("%f %f %f", &nota1, &nota2, &nota3);
 
-	if (possui_negativo(nota1, nota2, nota3))
+	if (possui_negativo(nota1, nota2, nota3) == 1)   // <5>
 		printf("Nao e' possivel calcular a media, uma ou mais notas sao negativas\n");
 	else
 		printf("Media: %f\n", (nota1 + nota2 + nota3) / 3.0);
