@@ -7,7 +7,7 @@ int main() {
     printf("Informe um valor: ");
     scanf("%f", &menor);
     
-    while (quantidade < 5) {
+    while (quantidade < 50) {
         printf("Informe um valor: ");
         scanf("%f", &valor);
         
