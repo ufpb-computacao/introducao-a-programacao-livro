@@ -6,7 +6,10 @@ float calculo_delta(float a, float b, float c) {
 }
 
 float raiz(float a, float b, float delta, int sinal) {
-	return (-b + sqrt(delta)) / 2 * a;
+	if (sinal == 1)
+		return (-b + sqrt(delta)) / 2 * a;
+	else
+		return (-b - sqrt(delta)) / 2 * a;
 }
 
 int main() {
