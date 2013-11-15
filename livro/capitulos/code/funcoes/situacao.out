@@ -1,0 +1,2 @@
+situacao.c:12:6: error: conflicting types for 'situacao'
+void situacao(float n1, float n2, float n3) {  // <2>
