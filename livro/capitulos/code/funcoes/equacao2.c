@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-float calculo_delta(float a, float b, float c) {  // <1>
+float calculo_delta(float a, float b, float c) {
 	return (b * b) - (4 * a * c);
 }
 
-float raiz_positiva(float a, float b, float delta) {  // <2>
+float raiz(float a, float b, float delta, int sinal) {
 	return (-b + sqrt(delta)) / 2 * a;
-}
-
-float raiz_negativa(float a, float b, float delta) {  // <3>
-	return (-b - sqrt(delta)) / 2 * a;
 }
 
 int main() {
@@ -25,9 +21,9 @@ int main() {
 	if (delta < 0.0)
 		printf("Delta negativo, nao existem raizes\n");
 	else if (delta == 0)
-		printf("Delta = 0, uma raiz: %f\n", raiz_positiva(a, b, delta));
+		printf("Delta = 0, uma raiz: %f\n", raiz(a, b, delta, 1));
 	else
-		printf("Raizes: %f e %f\n", raiz_positiva(a, b, delta), raiz_negativa(a, b, delta));
+		printf("Raizes: %f e %f\n", raiz(a, b, delta, 1), raiz(a, b, delta, -1));
 
 	return 0;
 }
