@@ -6,7 +6,8 @@ int main() {
 	printf("Entre as três notas: ");
 	scanf("%f %f %f", &nota1, &nota2, &nota3); 
 
-	situacao(nota1, nota2, nota3);  // <1> 
+	situacao(nota1, nota2, nota3);  // <1>
+	return 0; 
 }
 
 void situacao(float n1, float n2, float n3) {  // <2>
@@ -20,3 +21,5 @@ void situacao(float n1, float n2, float n3) {  // <2>
 	else
 		printf("Aluno na prova final"); 
 }
+
+
