@@ -1,0 +1,14 @@
+A gráfica nos impões diversas restrições em
+relação às imagens.
+
+Portanto as imagens devem seguir as seguintes
+intruções:
+
+* Utilizar imagens CMYK ao invés de RGB
+* Preferir utilizar tons de cinza ao invés de cores nas ilustrações
+* Desenhar os gráficos no Inkscape, salvar as imagens em .svg
+* Expotar a imagem .svg para .eps (manter as duas no repositório)
+* Evitar usar gráficos em jpeg, pois na impressão fica borrado.
+* Evitar usar gráficos em png pois são RGB
+
+Em caso de dúvida, contactar a equipe de produção.
