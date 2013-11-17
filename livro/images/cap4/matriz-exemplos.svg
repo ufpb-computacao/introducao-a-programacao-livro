@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="matriz-exemplos.svg">
+   sodipodi:docname="matriz-exemplos.eps">
   <defs
      id="defs4">
     <marker
@@ -186,6 +186,6 @@
          sodipodi:role="line"
          id="tspan6496-7"
          x="438.38419"
-         y="312.0921">Matriz 3x2</tspan></text>
+         y="312.0921">Matriz 2x3</tspan></text>
   </g>
 </svg>
