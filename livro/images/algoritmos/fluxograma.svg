@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg4393"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="fluxograma.eps">
+  <defs
+     id="defs4395">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path5147"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4585" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.85918483"
+     inkscape:cx="364.01808"
+     inkscape:cy="772.6549"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="674"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4398">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <image
+       y="124.7193"
+       x="68.000008"
+       id="image4463"
+       xlink:href="file:///home/santana/asciibook/introducao-a-programacao-livro/livro/images/algoritmos/fluxograma.png"
+       height="301"
+       width="624" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Grafico"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4467"
+       width="144.56258"
+       height="78.205978"
+       x="66.35659"
+       y="124.55487"
+       ry="0" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 379.86578,254.6793 144.56258,-15.86987 0,78.20598 -144.56258,0 z"
+       id="rect4467-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4467-5"
+       width="144.56258"
+       height="78.205978"
+       x="381.3085"
+       y="129.16302"
+       ry="14.336332" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 380.2689,349.48704 144.56258,0 0,78.20597 c 0,0 -26.02026,-10.76858 -70.36976,1.43363 -54.91635,15.10955 -74.19282,-1.43363 -74.19282,-1.43363 z"
+       id="rect4467-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 140.08057,342.20445 66.888287,379.7357 139.66795,419.01695 211.11456,379.7357 140.08057,342.20445 z"
+       id="path4605"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 139.14953,235.78933 0,62.14633"
+       id="path4610"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="221.46764"
+       y="164.31113"
+       id="text5566"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5568"
+         x="221.46764"
+         y="164.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold">Processamento.</tspan><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="184.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5570" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="204.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5572" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="224.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5574" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="244.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5576" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="264.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5578">Sentido do fluxo</tspan><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="284.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5580">de execução do</tspan><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="304.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5582">algoritmo.</tspan><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="324.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5584" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="344.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5588" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="364.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5590" /><tspan
+         sodipodi:role="line"
+         x="221.46764"
+         y="384.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5592">Ponto de decisão.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Arial;-inkscape-font-specification:Arial"
+       x="536.36749"
+       y="164.31113"
+       id="text5566-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5568-1"
+         x="536.36749"
+         y="164.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold">Início/Fim.</tspan><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="184.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5570-7" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="204.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5572-6" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="224.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5574-3" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="244.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5576-5" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="264.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5578-3" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="284.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5650">Entrada de dados.</tspan><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="304.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5652" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="324.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5654" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="344.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5656" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="364.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5658" /><tspan
+         sodipodi:role="line"
+         x="536.36749"
+         y="384.31113"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Arial Bold"
+         id="tspan5592-8">Saída de dados.</tspan></text>
+  </g>
+</svg>
