@@ -2,9 +2,19 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v1.0.0</edition>
+  <edition>v1.0.b</edition>
 
   <revhistory>
+    <revision>
+      <revnumber>v1.0.b</revnumber>
+      <date></date>
+      <authorinitials>Eduardo</authorinitials>
+      <revremark>
+* Correção: altura em metros 1,8 m #17
+      </revremark>
+    </revision>
+
+
     <revision>
       <revnumber>v1.0.0</revnumber>
       <date>Novembro 2013</date>
