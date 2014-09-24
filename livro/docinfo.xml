@@ -1,52 +1,50 @@
-<!--
-  rudder-doc-docinfo.xml
-  DocBook document information file for rudder-doc.txt.
--->
-  <edition>v1.0.b</edition>
+<edition>{edition}</edition>
 
-  <revhistory>
-    <revision>
-      <revnumber>v1.0.b</revnumber>
-      <date></date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
-* Correção: altura em metros 1,8 m #17
-      </revremark>
-    </revision>
+<revhistory>
+  <revision>
+    <revnumber>v1.0.1</revnumber>
+    <date>24/9/2014</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
+<ulink url="{gitrepo}/issues/17">cap1: Correção da unidade da altura que estava 1,80 cm;</ulink>
+<ulink url="{gitrepo}/issues/19">Adição de links no histórico de revisão;</ulink>
+<ulink url="{gitrepo}/issues/20">Solicitando feedback ao final de cada capítulo;</ulink>
+    </revremark>
+  </revision>
 
 
-    <revision>
-      <revnumber>v1.0.0</revnumber>
-      <date>Novembro 2013</date>
-      <authorinitials>Bruno,Jorge,Eduardo,Andrei</authorinitials>
-      <revremark>
-        Primeira versão do livro para impressão.
-      </revremark>
-    </revision>
-  </revhistory>
+  <revision>
+    <revnumber>v1.0.0</revnumber>
+    <date>11/2013</date>
+    <authorinitials>Bruno, Jorge, Andrei</authorinitials>
+    <revremark>
+      Primeira versão do livro para impressão.
+    </revremark>
+  </revision>
+</revhistory>
 
 
-  <authorgroup>
+<authorgroup>
 
-    <author>
-      <firstname>Bruno</firstname>
-      <surname>Jefferson</surname>
-    </author>
+  <author>
+    <firstname>Bruno</firstname>
+    <surname>Jefferson</surname>
+  </author>
 
-    <author>
-      <firstname>Jorge</firstname>
-      <surname>Dias</surname>
-    </author>
+  <author>
+    <firstname>Jorge</firstname>
+    <surname>Dias</surname>
+  </author>
 
-    <author>
-      <firstname>Andrei</firstname>
-      <surname>Formiga</surname>
-    </author>
+  <author>
+    <firstname>Andrei</firstname>
+    <surname>Formiga</surname>
+  </author>
 
-    <editor>
-      <firstname>Eduardo</firstname>
-      <surname>Medeiros</surname>
-    </editor>
+  <editor>
+    <firstname>Eduardo</firstname>
+    <surname>Medeiros</surname>
+  </editor>
 
-  </authorgroup>
-  
+</authorgroup>
+
