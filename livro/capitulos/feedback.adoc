@@ -3,8 +3,14 @@
 ====
 Você pode contribuir para melhoria dos nossos livros. Encontrou algum erro? Gostaria de submeter uma sugestão ou crítica?
 
-Acesse link:{gitrepo}/issues/new?title={cap}+%5BDigite+aqui+o+t%C3%ADtulo+da+sua+corre%C3%A7%C3%A3o%2C+sugest%C3%A3o+ou+cr%C3%ADtica%5D&body=Vers%C3%A3o+do+livro%3A+%60{edition}%60%0ADescreva+sua+contribui%C3%A7%C3%A3o+aqui.[{gitrepo}/issues/new] para realizar seu feedback.
+Acesse link:{gitrepo}/issues/new?title={cap}+%5BDigite+aqui+o+t%C3%ADtulo+da+sua+corre%C3%A7%C3%A3o%2C+sugest%C3%A3o+ou+cr%C3%ADtica%5D&body=Vers%C3%A3o+do+livro%3A+%60{edition}%60%0AP%C3%A1gina%3A+%60%3F%60%0ADescreva+sua+contribui%C3%A7%C3%A3o+abaixo%3A[{gitrepo}/issues/new] para realizar seu feedback.
 Lembre-se de incluir na mensagem a seção, capítulo (*{cap}*) e a versão do livro (*{edition}*) alvo de sua contribuição. Você receberá notificações sobre os encaminhamentos que serão dados a partir do seu feedback.
 Para compreender melhor como feedbacks funcionam https://github.com/edusantana/guia-geral-ead-computacao-ufpb/blob/master/livro/capitulos/livros-contribuicao.adoc[consulte o guia do curso].
 ====
+
+////
+TIP Use this site to generate a new urlencoded message:
+CAUTION Remeber to change encoding to utf8
+http://www.url-encode-decode.com/urlencode
+////
 
