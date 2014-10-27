@@ -9,6 +9,6 @@ intruções:
 * Desenhar os gráficos no Inkscape, salvar as imagens em .svg
 * Expotar a imagem .svg para .eps (manter as duas no repositório)
 * Evitar usar gráficos em jpeg, pois na impressão fica borrado.
-* Evitar usar gráficos em png pois são RGB
+* Evitar usar gráficos em png pois são RGB, o branco fica cinza na impressão.
 
 Em caso de dúvida, contactar a equipe de produção.

@@ -1,4 +1,0 @@
-REGISTRO Conta
-  numero_da_conta, cpf_do_cliente, saldo: NUMÉRICO
-FIM_REGISTRO
-

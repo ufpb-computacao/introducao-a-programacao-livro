@@ -1,4 +1,0 @@
-REGISTRO Ponto
-  x, y: NUMÉRICO
-FIM_REGISTRO
-

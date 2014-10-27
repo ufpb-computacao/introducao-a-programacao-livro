@@ -1,5 +1,0 @@
-REGISTRO Pessoa
-  nome, sexo: TEXTO
-  peso, altura, cpf: NUMÉRICO
-FIM_REGISTRO
-

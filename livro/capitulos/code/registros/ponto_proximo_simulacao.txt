@@ -1,8 +1,0 @@
-Campos: x, y
-
-Informe as coordenadas do ponto(1): 0 0
-Informe as coordenadas do ponto(2): 4 6
-Informe as coordenadas do ponto(3): 6 1
-Informe as coordenadas do ponto(4): 5 3
-Informe as coordenadas do ponto(5): 7 2
-Ponto mais proximo: (5,3)

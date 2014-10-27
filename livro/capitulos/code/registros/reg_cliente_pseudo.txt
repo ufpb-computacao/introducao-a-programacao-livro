@@ -1,5 +1,0 @@
-REGISTRO Cliente
-  cpf: NUMÉRICO
-  nome: TEXTUAL
-FIM_REGISTRO
-

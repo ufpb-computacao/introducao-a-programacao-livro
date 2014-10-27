@@ -1,8 +1,0 @@
-REGISTRO Ponto
-	x, y: NUMÉRICO
-FIM_REGISTRO
-
-REGISTRO Triangulo
-	p1, p2, p3: Ponto
-FIM_REGISTRO
-
