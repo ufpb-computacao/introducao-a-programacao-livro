@@ -1,6 +1,20 @@
 <edition>{edition}</edition>
 
 <revhistory>
+  
+<revision>
+  <revnumber>v1.0.2</revnumber>
+  <date>30/10/2014</date>
+  <authorinitials>Eduardo</authorinitials>
+  <revremark>
+<ulink url="{gitrepo}/issues/21">cap5 Correção no título do código de troca_main.c;</ulink>
+<ulink url="{gitrepo}/issues/22">cap5 Remoção de título do código no exercício 4;</ulink>
+<ulink url="{gitrepo}/issues/23">Revisão geral do Livro;</ulink>
+<ulink url="{gitrepo}/issues/24">Impressão de mini-sumário por capítulo;</ulink>
+  </revremark>
+</revision>
+
+
   <revision>
     <revnumber>v1.0.1</revnumber>
     <date>24/9/2014</date>
