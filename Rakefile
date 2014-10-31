@@ -43,12 +43,14 @@ task :epub
 
 namespace "wip" do
 
+  file @BOOK_SOURCE
+
   desc "Create new wip file from book source"
   task "new" do
     cp "#{@BOOK_SOURCE}", "#{@BOOK_SOURCE_DIR}/wip.adoc"
   end
 
-  file WIP_ADOC do
+  file WIP_ADOC => [@BOOK_SOURCE] do
     Rake::Task["wip:new"].invoke
   end
 

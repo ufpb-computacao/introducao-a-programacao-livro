@@ -3,6 +3,8 @@
 == Prefácio
 
 :cap: prefacio
+:online: {gitrepo}/blob/{edition}/livro/capitulos/code/{cap}
+:local: code/{cap}
 
 .Baixando a versão mais nova deste livro
 ____
@@ -97,12 +99,13 @@ _livro/capitulos/code/{cap}_.  O diretório _{cap}_ indica o capítulo
 onde o código está relacionado.
 
 :srcfile: {prefacio-code}
-.Código fonte
-{gitrepo}/blob/{edition}/livro/capitulos/code/{cap}/{srcfile}[code/{cap}/{srcfile}]
 
-.Exemplo de código
+.Código fonte
+{online}/{srcfile}[{local}/{srcfile}]
+
+.{srcfile}
 ----
-include::code/{cap}/{srcfile}[]
+include::{local}/{srcfile}[]
 ----
 
 [[sec_codigo_fonte]]
